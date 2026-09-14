@@ -12,7 +12,7 @@ permalink: /about/
 
 fade is a Japanese-American rock band formed in New York in 1991 by members Rui (drums), Kansei (rhythm guitar) and Noriyuki (bass). Lead guitarist 5° (pronounced Godo, real name Shingo Terasawa) joined later in 1999 after the other members relocated to Tokyo. Later, in 2001, vocalist Jon Underdown also joined the lineup, who was an exchange student in Tokyo at the time. In 2002, the group made their official debut as fade under UMG Japan.
 
-Jon described fade's sound as the 'California roll of rock' - a fusion of eastern and western influences resulting in a unique style. 
+Rui described fade's sound as the 'California roll of rock' - a fusion of eastern and western influences resulting in a unique style. 
 
 ### About this site
 
