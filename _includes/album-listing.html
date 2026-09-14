@@ -1,3 +1,9 @@
 <div class="album-listing {{ include.class }}">
-    <img src="{{ include.image_src | relative_url }}"><p>{{ include.title }} ({{ include.year }})</p>
+    {% if include.image_src == nil %}
+        <img src="/assets/images/covers/unknown.png">
+    {% else %}
+        <img src="{{ include.image_src | relative_url }}">
+    {% endif %}
+
+    <p>{{ include.title }} ({{ include.year }})</p>
 </div>

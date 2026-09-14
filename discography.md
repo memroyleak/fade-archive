@@ -6,19 +6,19 @@ permalink: discography
 fade's discography is listed here; click on each release to see more info and downloads!
 
 ## Albums
-- Crossroad: History of fade (2014)
-- Ten (2012)
-- Age of Innocence (2009)
-- To Find A Better Tomorrow (2008)
+{% include album-listing.html title='Crossroad: History of fade' year='2014' image_src='/assets/images/covers/crossroad-history-of-fade.jpg' %}
+{% include album-listing.html title='TEN' year='2012' image_src='/assets/images/covers/ten.jpg' %}
+{% include album-listing.html title='Age of Innocence' year='2009' image_src='/assets/images/covers/age-of-innocence.jpg' %}
+{% include album-listing.html title='To Find A Better Tomorrow' year='2008' image_src='/assets/images/covers/to-find-a-better-tomorrow.png' %}
 
 ## EPs
-- Crossroad EP (2014)
-- Kings of Dawn (2011)
-- Under the Sun (2005)
+{% include album-listing.html title='Crossroad EP' year='2014' image_src='/assets/images/covers/crossroad-ep.jpg' %}
+{% include album-listing.html title='Kings of Dawn' year='2011' image_src='/assets/images/covers/kings-of-dawn-cd.jpg' %}
+{% include album-listing.html title='Under the Sun' year='2005' image_src='/assets/images/covers/under-the-sun.jpg' %}
 {% include album-listing.html title='A Moment of Truth' year='2005' image_src='/assets/images/covers/a-moment-of-truth.jpg' %}
-- fade (2003)  
+{% include album-listing.html title='fade' year='2003' image_src='/assets/images/covers/fade2003.png' %}
 
 ## Singles
-- Cross Road (EN/JP, 2013)
-- コズミカリズム (2011)
-- One Reason (2011)
+{% include album-listing.html title='Cross Road' year='2013' image_src='/assets/images/covers/cross-road.jpg' %}
+{% include album-listing.html title='コズミカリズム' year='2013' %}
+{% include album-listing.html title='One Reason' year='2011' image_src='/assets/images/covers/one-reason.jpg' %}
