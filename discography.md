@@ -15,7 +15,7 @@ fade's discography is listed here; click on each release to see more info and do
 - Crossroad EP (2014)
 - Kings of Dawn (2011)
 - Under the Sun (2005)
-- A Moment of Truth (2005)
+{% include album-listing.html title='A Moment of Truth' year='2005' image_src='/assets/images/covers/a-moment-of-truth.jpg' %}
 - fade (2003)  
 
 ## Singles
