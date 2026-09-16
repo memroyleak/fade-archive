@@ -2,23 +2,27 @@
 layout: default
 ---
 
-<div class="album-info">
-    <h1 id="title">{{ page.title }}</h1>
-    <img id="cover" src="{{ page.cover | relative_url }}">
-    <div class="download-info">
-        <p>Quality/Status: {{ page.download_format }}</p>
-        {% if page.download_link %}
-            <a href="{{ page.download_link }}">Download link</a>
-        {% endif %}
+<div class="album">
+    <div class="album-info">
+        <h1 id="title">{{ page.title }}</h1>
+        <img id="cover" src="{{ page.cover | relative_url }}">
+        <div class="download-info">
+            <h2>Quality/Status: {{ page.download_format }}</h2>
+            {% if page.download_link %}
+                <a href="{{ page.download_link }}">Download link</a>
+            {% endif %}
+        </div>
+        <br>
     </div>
-    <div class="tracklist">
-        <ol>
-            {% for track in page.tracks %}
-                <li>{{ track }}</li>
-            {% endfor %}
-        </ol>
+    <div class="description">
+        {{ content }}
+        <div class="tracklist">
+            <h2>Tracklist</h2>
+            <ol>
+                {% for track in page.tracks %}
+                    <li>{{ track }}</li>
+                {% endfor %}
+            </ol>
+        </div>
     </div>
-</div>
-<div class="description">
-    {{ content }}
 </div>

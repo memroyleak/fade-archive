@@ -13,6 +13,7 @@ tracks:
 download_format: "44.1kHz / 16-bit FLAC"
 download_link: https://google.com
 permalink: albums/to-find-a-better-tomorrow
+exclude: true
 ---
 
 fade's 4th EP - this time around, mixed by Ted Jensen (of P.O.D, Fall Out Boy, My Chemical Romance, et cetera fame)!

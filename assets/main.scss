@@ -71,3 +71,17 @@ figure figcaption {
   height: auto;
   margin: 1rem;
 }
+
+.album {
+  display: flex;
+}
+
+.album .album-info {
+  flex: 1;
+  margin: 1rem;
+}
+
+.album .description {
+  flex: 1.2;
+  margin: 1rem;
+}
