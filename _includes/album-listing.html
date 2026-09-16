@@ -5,5 +5,5 @@
         <img src="{{ include.image_src | relative_url }}">
     {% endif %}
 
-    <p>{{ include.title }} ({{ include.year }})</p>
+    <a href="{{ include.link | relative_url }}"><p>{{ include.title }} ({{ include.year }})</p></a>
 </div>
