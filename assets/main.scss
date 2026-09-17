@@ -1,11 +1,13 @@
 ---
 ---
 
+$on-medium: 600px !default;
+
 @import "{{ site.theme }}";
 
 @font-face {
   font-family: 'Patrician';
-  src: url(fonts/Patrician.woff) format("woff");
+  src: url(fonts\Patrician.woff) format("woff");
 }
 
 :root {
@@ -96,6 +98,9 @@ figure figcaption {
 
 .album {
   display: flex;
+  @media screen and (max-width: $on-medium) {
+    flex-direction: column;
+  }
 }
 
 .album .album-info {
@@ -106,5 +111,4 @@ figure figcaption {
 .album .description {
   flex: 1.2;
   margin: 1rem;
-
 }
