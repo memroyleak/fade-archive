@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+@font-face {
+  font-family: 'Patrician';
+  src: url(fonts/Patrician.woff) format("woff");
+}
+
 :root {
     --minima-text-color: #c1c3c1;
     --minima-background-color: #282828;
@@ -18,11 +23,19 @@ body {
 }
 
 h1 {
-  font-weight: bolder;
+  font-family: 'Patrician';
+  font-size: 30pt;
+  letter-spacing: -1pt;
 }
 
 h2 {
-  font-weight: bold;
+  font-family: 'Patrician';
+  letter-spacing: -1pt;
+}
+
+h3 {
+  font-family: 'Patrician';
+  letter-spacing: -1pt;
 }
 
 .site-header {
